@@ -5,4 +5,4 @@ This script is based on https://github.com/malko/rocketchat-gitlab-hook
 
 Just copy the content and paste in your incoming webhook configuration on Rocket.chat.
 
-Make sure that you changed the `'<YOUR GITLAB API TOKEN>'` to your real token.
+Make sure that you changed the `'<YOUR GITLAB API TOKEN>'` to your real token and `'<YOUR PROJECT ID>'` for you gitlab project id.
