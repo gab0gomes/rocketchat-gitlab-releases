@@ -72,7 +72,7 @@ class Script { // eslint-disable-line
 	}
 
 	tagEvent(data) {
-		const release = HTTP('GET', 'https://gitlab.com/api/v4/projects/586906/releases', {
+		const release = HTTP('GET', 'https://gitlab.com/api/v4/projects/<YOUR PROJECT ID>/releases', {
 			headers: {
 				'PRIVATE-TOKEN': '<YOUR GITLAB API TOKEN>'
 			}
